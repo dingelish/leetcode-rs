@@ -1,0 +1,23 @@
+[package]
+name = "leetcode"
+version = "0.1.0"
+authors = ["Yu Ding"]
+edition = "2015"
+homepage = "https://github.com/dingelish/leetcode-rs"
+repository = "https://github.com/dingelish/leetcode-rs"
+license = "MIT"
+description = "Leetcode solutions in Rust"
+
+include = [
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+    "src/lib.rs",
+    "src/two_sum.rs",
+]
+
+[lib]
+name = "leetcode"
+crate-type = ["rlib", "staticlib"]
+
+[dependencies]
