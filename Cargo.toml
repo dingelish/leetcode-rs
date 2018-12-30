@@ -1,6 +1,6 @@
 [package]
 name = "leetcode"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yu Ding"]
 edition = "2015"
 homepage = "https://github.com/dingelish/leetcode-rs"
@@ -14,6 +14,7 @@ include = [
     "README.md",
     "src/lib.rs",
     "src/two_sum.rs",
+    "src/add_two_numbers.rs",
 ]
 
 [lib]
